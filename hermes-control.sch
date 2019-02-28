@@ -5400,6 +5400,119 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="hermes-parts">
+<packages>
+<package name="PQFN43P300X350X102-24N">
+<wire x1="-1.83" y1="-1.58" x2="-1.83" y2="1.58" width="0.127" layer="51"/>
+<wire x1="-1.83" y1="1.58" x2="1.83" y2="1.58" width="0.127" layer="51"/>
+<wire x1="1.83" y1="1.58" x2="1.83" y2="-1.58" width="0.127" layer="51"/>
+<wire x1="1.83" y1="-1.58" x2="-1.83" y2="-1.58" width="0.127" layer="51"/>
+<wire x1="-1.99" y1="-1.74" x2="-1.99" y2="1.74" width="0.05" layer="39"/>
+<wire x1="-1.99" y1="1.74" x2="1.99" y2="1.74" width="0.05" layer="39"/>
+<wire x1="1.99" y1="1.74" x2="1.99" y2="-1.74" width="0.05" layer="39"/>
+<wire x1="1.99" y1="-1.74" x2="-1.99" y2="-1.74" width="0.05" layer="39"/>
+<circle x="-2.4" y="1.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.4" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.00321875" y="1.903059375" size="0.40705625" layer="25">&gt;NAME</text>
+<text x="-2.0016" y="-2.201759375" size="0.406725" layer="27">&gt;VALUE</text>
+<wire x1="-1.86" y1="1.58" x2="-1.86" y2="0.94" width="0.127" layer="21"/>
+<wire x1="1.86" y1="1.58" x2="1.86" y2="0.94" width="0.127" layer="21"/>
+<wire x1="-1.86" y1="-1.58" x2="-1.86" y2="-0.94" width="0.127" layer="21"/>
+<wire x1="1.86" y1="-1.58" x2="1.86" y2="-0.94" width="0.127" layer="21"/>
+<smd name="1" x="-1.505" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="2" x="-1.47" y="0.645" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R180"/>
+<smd name="3" x="-1.47" y="0.215" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R180"/>
+<smd name="4" x="-1.47" y="-0.215" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R180"/>
+<smd name="5" x="-1.47" y="-0.645" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R180"/>
+<smd name="6" x="-1.505" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="7" x="-1.075" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="8" x="-0.645" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="9" x="-0.215" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="10" x="0.215" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="11" x="0.645" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="12" x="1.075" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="13" x="1.505" y="-1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R270"/>
+<smd name="14" x="1.47" y="-0.645" dx="0.53" dy="0.28" layer="1" roundness="7"/>
+<smd name="15" x="1.47" y="-0.215" dx="0.53" dy="0.28" layer="1" roundness="7"/>
+<smd name="16" x="1.47" y="0.215" dx="0.53" dy="0.28" layer="1" roundness="7"/>
+<smd name="17" x="1.47" y="0.645" dx="0.53" dy="0.28" layer="1" roundness="7"/>
+<smd name="18" x="1.505" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="19" x="1.075" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="20" x="0.645" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="21" x="0.215" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="22" x="-0.215" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="23" x="-0.645" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+<smd name="24" x="-1.075" y="1.22" dx="0.53" dy="0.28" layer="1" roundness="7" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LSM9DS1TR">
+<wire x1="12.7" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
+<text x="-12.7213" y="26.0786" size="1.78098125" layer="95">&gt;NAME</text>
+<text x="-12.7214" y="-25.4427" size="1.780990625" layer="96">&gt;VALUE</text>
+<pin name="VDDIO" x="17.78" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL/SPC" x="-17.78" y="15.24" length="middle" direction="in" function="clk"/>
+<pin name="SDA/SDI/SDO" x="-17.78" y="12.7" length="middle"/>
+<pin name="SDO_A/G" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="SDO_M" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="CS_A/G" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="CS_M" x="-17.78" y="-5.08" length="middle" direction="in"/>
+<pin name="DRDY_M" x="17.78" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="INT_M" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="INT1_A/G" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="INT2_A/G" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="DEN_A/G" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="GND" x="17.78" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="CAP" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="VDD" x="17.78" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="C1" x="17.78" y="-12.7" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LSM9DS1TR" prefix="U">
+<description>The LSM9DS1 is a system-in-package featuring a
+3D digital linear acceleration sensor, a 3D digital
+angular rate sensor, and a 3D digital magnetic
+sensor.</description>
+<gates>
+<gate name="G$1" symbol="LSM9DS1TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN43P300X350X102-24N">
+<connects>
+<connect gate="G$1" pin="C1" pad="24"/>
+<connect gate="G$1" pin="CAP" pad="21"/>
+<connect gate="G$1" pin="CS_A/G" pad="7"/>
+<connect gate="G$1" pin="CS_M" pad="8"/>
+<connect gate="G$1" pin="DEN_A/G" pad="13"/>
+<connect gate="G$1" pin="DRDY_M" pad="9"/>
+<connect gate="G$1" pin="GND" pad="19 20"/>
+<connect gate="G$1" pin="INT1_A/G" pad="11"/>
+<connect gate="G$1" pin="INT2_A/G" pad="12"/>
+<connect gate="G$1" pin="INT_M" pad="10"/>
+<connect gate="G$1" pin="SCL/SPC" pad="2"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="4"/>
+<connect gate="G$1" pin="SDO_A/G" pad="5"/>
+<connect gate="G$1" pin="SDO_M" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="22 23"/>
+<connect gate="G$1" pin="VDDIO" pad="1 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="ST MICROELECTRONICS"/>
+<attribute name="PACKAGE" value="LGA-24"/>
+<attribute name="PARTREV" value="3"/>
+<attribute name="STANDARD" value="IPC 7351B"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5503,6 +5616,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U1" library="hermes-parts" deviceset="LSM9DS1TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5812,6 +5926,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="GND21" gate="1" x="58.42" y="12.7" smashed="yes">
 <attribute name="VALUE" x="55.88" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="416.56" y="109.22" smashed="yes">
+<attribute name="NAME" x="403.8387" y="135.2986" size="1.78098125" layer="95"/>
+<attribute name="VALUE" x="403.8386" y="83.7773" size="1.780990625" layer="96"/>
 </instance>
 </instances>
 <busses>
