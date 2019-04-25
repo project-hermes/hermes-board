@@ -11860,7 +11860,7 @@ General-purpose diode for high-speed switching</description>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k 1%"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -11896,8 +11896,8 @@ General-purpose diode for high-speed switching</description>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF 16v"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
@@ -12296,12 +12296,12 @@ General-purpose diode for high-speed switching</description>
 <instance part="GND28" gate="1" x="114.3" y="55.88" smashed="yes">
 <attribute name="VALUE" x="111.76" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="83.82" y="83.82" smashed="yes" rot="R180"/>
-<instance part="GND29" gate="1" x="88.9" y="68.58" smashed="yes">
-<attribute name="VALUE" x="86.36" y="66.04" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$1" x="81.28" y="83.82" smashed="yes" rot="R180"/>
+<instance part="GND29" gate="1" x="86.36" y="68.58" smashed="yes">
+<attribute name="VALUE" x="83.82" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY27" gate="G$1" x="88.9" y="86.36" smashed="yes">
-<attribute name="VALUE" x="88.9" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY27" gate="G$1" x="86.36" y="86.36" smashed="yes">
+<attribute name="VALUE" x="86.36" y="89.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY28" gate="G$1" x="200.66" y="134.62" smashed="yes">
 <attribute name="VALUE" x="200.66" y="137.414" size="1.778" layer="96" align="bottom-center"/>
@@ -12564,7 +12564,7 @@ General-purpose diode for high-speed switching</description>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
 <pinref part="U$2" gate="G$1" pin="3"/>
-<wire x1="88.9" y1="71.12" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="71.12" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12632,7 +12632,7 @@ General-purpose diode for high-speed switching</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY27" gate="G$1" pin="VCC"/>
-<wire x1="88.9" y1="81.28" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="81.28" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12737,7 +12737,8 @@ General-purpose diode for high-speed switching</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="411.48" y1="142.24" x2="414.02" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="142.24" x2="414.02" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="142.24" x2="414.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="144.78" x2="414.02" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="160.02" x2="403.86" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
 <wire x1="403.86" y1="160.02" x2="414.02" y2="160.02" width="0.1524" layer="91"/>
@@ -12746,6 +12747,14 @@ General-purpose diode for high-speed switching</description>
 <junction x="391.16" y="160.02"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <junction x="403.86" y="160.02"/>
+<pinref part="U1" gate="G$1" pin="VDDIO"/>
+<wire x1="411.48" y1="139.7" x2="419.1" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="139.7" x2="419.1" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="144.78" x2="426.72" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="419.1" y1="144.78" x2="414.02" y2="144.78" width="0.1524" layer="91"/>
+<junction x="419.1" y="144.78"/>
+<junction x="414.02" y="144.78"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="REGIN"/>
@@ -13094,15 +13103,6 @@ General-purpose diode for high-speed switching</description>
 <label x="58.42" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VDDIO"/>
-<wire x1="411.48" y1="139.7" x2="419.1" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="139.7" x2="419.1" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="144.78" x2="426.72" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="DTR" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="DTR"/>
@@ -13206,13 +13206,6 @@ General-purpose diode for high-speed switching</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="Q6" gate="&gt;NAME" pin="C"/>
 <wire x1="114.3" y1="86.36" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -13419,6 +13412,19 @@ General-purpose diode for high-speed switching</description>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="233.68" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="241.3" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PROBE" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO33"/>
+<wire x1="312.42" y1="88.9" x2="320.04" y2="88.9" width="0.1524" layer="91"/>
+<label x="314.96" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="86.36" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
