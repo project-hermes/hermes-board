@@ -12412,7 +12412,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <part name="U$1" library="Quectel" deviceset="L80_GNSS_MODULE" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="hermes" deviceset="MMBT2222A" device="" value="MMBT2222A"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -12437,7 +12436,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="hermes-parts" deviceset="LSM9DS1TR" device=""/>
 <part name="J3" library="hermes" deviceset="2201778-1" device=""/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LBAT" library="hermes" deviceset="S2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -12481,8 +12479,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12531,6 +12527,7 @@ and switching applications at collector currents of 10 mA to 100 mA
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VCC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device=""/>
 <part name="VCC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device=""/>
+<part name="VCC6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12607,11 +12604,8 @@ and switching applications at collector currents of 10 mA to 100 mA
 <instance part="GND9" gate="1" x="228.6" y="43.18" smashed="yes">
 <attribute name="VALUE" x="226.06" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="129.54" y="25.4" smashed="yes">
-<attribute name="VALUE" x="127" y="22.86" size="1.778" layer="96"/>
-</instance>
-<instance part="Q1" gate="&gt;NAME" x="121.92" y="40.64" smashed="yes">
-<attribute name="NAME" x="124.46" y="40.64" size="1.778" layer="95" font="vector"/>
+<instance part="GND10" gate="1" x="129.54" y="30.48" smashed="yes">
+<attribute name="VALUE" x="127" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="337.82" y="99.06" smashed="yes">
 <attribute name="VALUE" x="337.82" y="101.854" size="1.778" layer="96" align="bottom-center"/>
@@ -12676,9 +12670,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <instance part="J3" gate="G$1" x="106.68" y="127" smashed="yes">
 <attribute name="NAME" x="93.9597" y="143.0275" size="1.27203125" layer="95"/>
 <attribute name="VALUE" x="93.9579" y="109.9524" size="1.272209375" layer="96"/>
-</instance>
-<instance part="SUPPLY12" gate="G$1" x="129.54" y="142.24" smashed="yes">
-<attribute name="VALUE" x="129.54" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND13" gate="1" x="127" y="109.22" smashed="yes">
 <attribute name="VALUE" x="124.46" y="106.68" size="1.778" layer="96"/>
@@ -12843,14 +12834,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <attribute name="NAME" x="206.756" y="61.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="206.756" y="56.769" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="109.22" y="40.64" smashed="yes">
-<attribute name="NAME" x="105.41" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.41" y="37.338" size="1.778" layer="96"/>
-</instance>
-<instance part="R5" gate="G$1" x="119.38" y="33.02" smashed="yes">
-<attribute name="NAME" x="115.57" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="29.718" size="1.778" layer="96"/>
-</instance>
 <instance part="C6" gate="G$1" x="147.32" y="106.68" smashed="yes">
 <attribute name="NAME" x="148.336" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="102.489" size="1.778" layer="96"/>
@@ -13009,6 +12992,9 @@ and switching applications at collector currents of 10 mA to 100 mA
 <instance part="VCC5" gate="G$1" x="142.24" y="116.84" smashed="yes">
 <attribute name="VALUE" x="142.24" y="119.38" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="VCC6" gate="G$1" x="129.54" y="147.32" smashed="yes">
+<attribute name="VALUE" x="129.54" y="149.86" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13099,19 +13085,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <junction x="210.82" y="25.4"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
-<wire x1="137.16" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="129.54" y1="35.56" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="&gt;NAME" pin="E"/>
-<wire x1="129.54" y1="33.02" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="33.02" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
-<junction x="129.54" y="33.02"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<junction x="124.46" y="33.02"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -13248,6 +13221,12 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="355.6" y1="27.94" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="129.54" y1="33.02" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<wire x1="129.54" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -13380,12 +13359,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <wire x1="55.88" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="VDD"/>
-<wire x1="124.46" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-<wire x1="129.54" y1="139.7" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 <pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="421.64" y1="76.2" x2="411.48" y2="76.2" width="0.1524" layer="91"/>
@@ -13511,20 +13484,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="231.14" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <junction x="218.44" y="33.02"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="Q1" gate="&gt;NAME" pin="C"/>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
-<wire x1="124.46" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GPSRESET" class="0">
-<segment>
-<wire x1="104.14" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
-<label x="88.9" y="40.64" size="1.778" layer="95"/>
-<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IO13" class="0">
@@ -13844,16 +13803,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="Q5" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="33.02" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="&gt;NAME" pin="B"/>
-<wire x1="114.3" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<junction x="114.3" y="40.64"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VBUS"/>
@@ -13969,6 +13918,12 @@ and switching applications at collector currents of 10 mA to 100 mA
 <wire x1="147.32" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <junction x="147.32" y="111.76"/>
 <pinref part="VCC5" gate="G$1" pin="VCCIO"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="VDD"/>
+<pinref part="VCC6" gate="G$1" pin="VCCIO"/>
+<wire x1="129.54" y1="144.78" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="139.7" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX0" class="0">
