@@ -183,7 +183,6 @@ Rustom J</text>
 <text x="66.04" y="2.54" size="1.778" layer="21" rot="R90">LED2</text>
 <text x="73.66" y="2.54" size="1.778" layer="21" rot="R90">LED3</text>
 <text x="81.28" y="2.54" size="1.778" layer="21" rot="R90">LED4</text>
-<dimension x1="82.55" y1="33.02" x2="69.85" y2="33.02" x3="76.2" y3="33.02" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="Quectel">
