@@ -13300,6 +13300,12 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="53.34" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VBUS"/>
+<wire x1="154.94" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+<wire x1="149.86" y1="121.92" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -13801,14 +13807,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="B"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="VBUS"/>
-<wire x1="149.86" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="124.46" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$13" class="0">
