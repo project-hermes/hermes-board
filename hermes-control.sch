@@ -1154,33 +1154,6 @@ sensor.</description>
 <smd name="15" x="6.975" y="0.925" dx="0.6" dy="1.15" layer="1"/>
 <smd name="16" x="6.695" y="-7.05" dx="1.16" dy="1.5" layer="1"/>
 </package>
-<package name="JST_S2B-PH-SM4-TB(LF)(SN)">
-<wire x1="3.95" y1="0.35" x2="1.9" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="0.35" x2="-3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.95" y1="0.35" x2="-3.95" y2="-3.65" width="0.127" layer="21"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-2.2" y1="-7.25" x2="2.2" y2="-7.25" width="0.127" layer="21"/>
-<wire x1="3.95" y1="-3.65" x2="3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-7.7" x2="-4.35" y2="-7.7" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="-7.7" x2="-4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="0.6" x2="-1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="0.6" x2="-1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="1.75" y1="2" x2="1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.75" y1="0.6" x2="4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="4.35" y1="0.6" x2="4.35" y2="-7.7" width="0.05" layer="39"/>
-<text x="-3.87423125" y="2.547609375" size="1.27278125" layer="25">&gt;NAME</text>
-<text x="-3.75341875" y="-10.1187" size="1.274540625" layer="27">&gt;VALUE</text>
-<wire x1="3.95" y1="0.35" x2="3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-7.25" x2="-3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-7.25" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0.35" x2="3.95" y2="0.35" width="0.127" layer="51"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="51"/>
-<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="1" x="-1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="S2" x="3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-<smd name="S1" x="-3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-</package>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="21"/>
@@ -1216,17 +1189,6 @@ sensor.</description>
 <pin name="SWA" x="17.78" y="5.08" length="middle" direction="pas" rot="R180"/>
 <pin name="SWB" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
 <pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="S2B-PH-SM4-TB(LF)(SN)">
-<text x="-5.0829" y="5.59571875" size="1.272509375" layer="95">&gt;NAME</text>
-<text x="-5.08811875" y="-9.42268125" size="1.275409375" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
-<pin name="2" x="-7.62" y="0" length="short" direction="pas"/>
-<pin name="SHIELD" x="-7.62" y="-5.08" length="short" direction="pas"/>
 </symbol>
 <symbol name="NPN">
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
@@ -1273,27 +1235,6 @@ sensor.</description>
 <attribute name="MANUFACTURER" value="TE Connectivity"/>
 <attribute name="PARTREV" value="B"/>
 <attribute name="STANDARD" value="Manufacturer recommendations"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="S2B-PH-SM4-TB(LF)(SN)" prefix="J">
-<description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
-<gates>
-<gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST_S2B-PH-SM4-TB(LF)(SN)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="JST"/>
-<attribute name="STANDARD" value="Manufacturer Recommendation"/>
 </technology>
 </technologies>
 </device>
@@ -12379,6 +12320,72 @@ and switching applications at collector currents of 10 mA to 100 mA
 </deviceset>
 </devicesets>
 </library>
+<library name="B2B-PH-SM4-TB_LF__SN_">
+<packages>
+<package name="JST_B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="3.975" y1="-0.25" x2="-3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-3.975" y1="-0.25" x2="-3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="4.5" y1="5" x2="4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="4.5" y1="-3" x2="-4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="-3" x2="-4.5" y2="5" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="5" x2="4.5" y2="5" width="0.05" layer="39"/>
+<text x="-4.50581875" y="5.00646875" size="1.271640625" layer="25">&gt;NAME</text>
+<text x="-4.50348125" y="-4.50348125" size="1.27098125" layer="27">&gt;VALUE</text>
+<circle x="-2.083" y="-2.424" radius="0.2" width="0" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="21"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="-3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="0.5" x2="-3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="-0.25" x2="-1.75" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-0.25" x2="3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="3.975" y1="-0.25" x2="3.975" y2="0.5" width="0.2" layer="21"/>
+<smd name="1" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54361875" y="3.052340625" size="1.271809375" layer="95">&gt;NAME</text>
+<text x="-2.54098125" y="-7.622940625" size="1.270490625" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B2B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Surface Mount Top Entry Shrouded Header</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" PH Series 2 Position 2 mm Pitch Surface Mount Top Entry Shrouded Header "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-SM4-TB_LF__SN_"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12437,7 +12444,7 @@ and switching applications at collector currents of 10 mA to 100 mA
 <part name="U1" library="hermes-parts" deviceset="LSM9DS1TR" device=""/>
 <part name="J3" library="hermes" deviceset="2201778-1" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LBAT" library="hermes" deviceset="S2B-PH-SM4-TB(LF)(SN)" device=""/>
+<part name="LBAT" library="B2B-PH-SM4-TB_LF__SN_" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12674,9 +12681,9 @@ and switching applications at collector currents of 10 mA to 100 mA
 <instance part="GND13" gate="1" x="127" y="109.22" smashed="yes">
 <attribute name="VALUE" x="124.46" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="LBAT" gate="G$1" x="50.8" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.20428125" y="167.6371" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="60.22268125" y="167.63188125" size="1.275409375" layer="96" rot="R90"/>
+<instance part="LBAT" gate="G$1" x="48.26" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="42.66428125" y="165.0971" size="1.272509375" layer="95" rot="R90"/>
+<attribute name="VALUE" x="57.68268125" y="165.09188125" size="1.275409375" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="360.68" y="129.54" smashed="yes">
 <attribute name="VALUE" x="360.68" y="132.334" size="1.778" layer="96" align="bottom-center"/>
