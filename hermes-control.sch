@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12821,9 +12821,9 @@ and switching applications at collector currents of 10 mA to 100 mA
 <attribute name="NAME" x="313.436" y="36.068" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="315.595" y="36.068" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q3" gate="G$1" x="236.22" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="233.68" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="236.22" y="36.83" size="1.778" layer="96" rot="R90"/>
+<instance part="Q3" gate="G$1" x="236.22" y="30.48" smashed="yes" rot="MR90">
+<attribute name="NAME" x="238.76" y="36.83" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="236.22" y="36.83" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="C14" gate="G$1" x="218.44" y="30.48" smashed="yes">
 <attribute name="NAME" x="219.456" y="31.115" size="1.778" layer="95"/>
@@ -13334,8 +13334,8 @@ and switching applications at collector currents of 10 mA to 100 mA
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="246.38" y1="35.56" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="246.38" y1="33.02" x2="241.3" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="241.3" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="1"/>
@@ -13494,7 +13494,7 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <junction x="210.82" y="33.02"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="231.14" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <junction x="218.44" y="33.02"/>
 </segment>
@@ -14061,9 +14061,9 @@ and switching applications at collector currents of 10 mA to 100 mA
 <label x="314.96" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="233.68" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="241.3" y="27.94" size="1.778" layer="95"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="PROBE" class="0">
