@@ -12590,11 +12590,11 @@ and switching applications at collector currents of 10 mA to 100 mA
 <instance part="GND6" gate="1" x="236.22" y="152.4" smashed="yes">
 <attribute name="VALUE" x="233.68" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="48.26" y="157.48" smashed="yes">
-<attribute name="VALUE" x="45.72" y="154.94" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="50.8" y="154.94" smashed="yes">
+<attribute name="VALUE" x="48.26" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="53.34" y="160.02" smashed="yes" rot="R270">
-<attribute name="VALUE" x="61.214" y="160.02" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="48.26" y="160.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.386" y="160.02" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="GND8" gate="1" x="200.66" y="17.78" smashed="yes">
 <attribute name="VALUE" x="198.12" y="15.24" size="1.778" layer="96"/>
@@ -13059,11 +13059,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="48.26" y1="160.02" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LBAT" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="147.32" y1="99.06" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -13234,6 +13229,11 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="U$1" gate="G$1" pin="GND@2"/>
 <wire x1="129.54" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="LBAT" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="157.48" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -13252,12 +13252,6 @@ and switching applications at collector currents of 10 mA to 100 mA
 <junction x="165.1" y="167.64"/>
 </segment>
 <segment>
-<pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
-<wire x1="53.34" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="160.02" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LBAT" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="SUPPLY13" gate="G$1" pin="V_BATT"/>
 <wire x1="337.82" y1="99.06" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
@@ -13266,6 +13260,11 @@ and switching applications at collector currents of 10 mA to 100 mA
 <pinref part="SUPPLY4" gate="G$1" pin="V_BATT"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="213.36" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
+<pinref part="LBAT" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="160.02" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
