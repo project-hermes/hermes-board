@@ -174,8 +174,8 @@
 <text x="66.04" y="2.54" size="1.778" layer="21" rot="R90">LED2</text>
 <text x="73.66" y="2.54" size="1.778" layer="21" rot="R90">LED3</text>
 <text x="81.28" y="2.54" size="1.778" layer="21" rot="R90">LED4</text>
-<text x="8.89" y="43.18" size="1.778" layer="21">revC</text>
-<text x="8.89" y="40.64" size="1.778" layer="21">6-29-19</text>
+<text x="8.89" y="43.18" size="1.778" layer="21">revD</text>
+<text x="8.89" y="40.64" size="1.778" layer="21">8-10-19</text>
 </plain>
 <libraries>
 <library name="Quectel">
